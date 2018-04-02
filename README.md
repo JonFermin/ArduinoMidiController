@@ -1,8 +1,4 @@
 # Arduino MIDI CC Controller
-This is a work in progress MIDI controller that leverages processing, arduino and wekinator to make a physical, customizable MIDI controller.
-
-## Blog Post
-[Link to My Blog](https://jonfermin.wordpress.com/2018/03/15/project-1/)
 
 ![FullSizeRender](https://jonfermin.files.wordpress.com/2018/03/fullsizerender.jpg?w=2048) This project was born out of the fact that midi controllers are overpriced and often have too many knobs to be approachable. Micro controllers have relatively simple wiring that can produce effective, and most importantly, customizable midi controllers. This project explores a USB to Mini USB implementation that takes advantage of Serial to OSC communication to send MIDI CC values over to FL Studio. ![FullSizeRender-1.jpg](https://jonfermin.files.wordpress.com/2018/03/fullsizerender-1.jpg) Here's a video of the final product in action. The mappings of each of the knobs can be customized, making a single knob control multiple outputs, inverting the controls, or simply selecting new effects. You can link to any FL studio controller or VST, simply by right clicking and selecting 'Link to Controller.' [vimeo 260507716 w=640 h=360]
 
@@ -47,3 +43,7 @@ Therefore serial to midi communication is probably the most effective output. I 
 ### Improvements
 
 Eventually, it would be nice to implement all of this onto a single, mapped processing sketch that takes the input of the Serial potentiometers and simply crafts a 0-127 midi message to send to One of the bigger problems I ran into for this project was related to fabrication. The creative enclosure should be at the forefront of physical computing, rather than an afterthought. I've found after this project, that the software elements for most projects are simpler, rather than complicated. For my Project 2, I will try to focus on a visually appealing project that can be considered 'solid.' For the following project, I will focus on fabrication. Feedback and interaction should be at the forefront of designing physical computing projects, and while interesting prototypes can be made, the polished projects are often the most impressive. My goal is to put something in front of a future user that is self explanatory and visually interesting.
+
+
+## Blog Post
+[Link to My Blog](https://jonfermin.wordpress.com/2018/03/15/project-1/)
